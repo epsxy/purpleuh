@@ -3,7 +3,9 @@
 	"colors": {
 		"editor.background": "#11001C",
 		"editor.foreground": "#ffffff",
-		"sideBar.background": "#190028"
+		"sideBar.background": "#190028",
+		// "contrastActiveBorder": "#FF99B6",
+		"editorLineNumber.activeForeground": "#fff835"
 	},
 	"tokenColors": [
 		{
@@ -190,18 +192,21 @@
 		{
 			"scope": "string",
 			"settings": {
+				"fontStyle": "italic",
 				"foreground": "#FF99B6"
 			}
 		},
 		{
 			"scope": "string.tag",
 			"settings": {
+				"fontStyle": "italic",
 				"foreground": "#FF99B6"
 			}
 		},
 		{
 			"scope": "string.value",
 			"settings": {
+				"fontStyle": "italic",
 				"foreground": "#FF99B6"
 			}
 		},
@@ -236,6 +241,7 @@
 				"foreground": "#d4d4d4"
 			}
 		},
+		// -------------- Keyword --------------
 		{
 			"scope": "keyword",
 			"settings": {
@@ -273,6 +279,7 @@
 				"foreground": "#b5cea8"
 			}
 		},
+		// ------------------------------------
 		{
 			"scope": "support.function.git-rebase",
 			"settings": {
@@ -303,6 +310,7 @@
 				"foreground": "#9D4EDD"
 			}
 		},
+		// -------------- Function --------------
 		{
 			"name": "Function declarations",
 			"scope": [
@@ -311,9 +319,11 @@
 				"support.constant.handlebars"
 			],
 			"settings": {
-				"foreground": "#B67BE6"
+				"foreground": "#fff835"
 			}
 		},
+		// ------------------------------------
+		// -------------- Types --------------
 		{
 			"name": "Types declaration and references",
 			"scope": [
@@ -325,9 +335,11 @@
 				"source.cs storage.type"
 			],
 			"settings": {
-				"foreground": "#4EC9B0"
+				"fontStyle": "underline",
+				"foreground": "#731dd8"
 			}
 		},
+		// ------------------------------------
 		{
 			"name": "Types declaration and references, TS grammar specific",
 			"scope": [
@@ -349,6 +361,7 @@
 				"foreground": "#C586C0"
 			}
 		},
+		// -------------- Variable --------------
 		{
 			"name": "Variable and parameter name",
 			"scope": [
@@ -357,9 +370,10 @@
 				"support.variable"
 			],
 			"settings": {
-				"foreground": "#9CDCFE"
+				"foreground": "#5932e6"
 			}
 		},
+		// ------------------------------------
 		{
 			"name": "Object keys, TS grammar specific",
 			"scope": [
