@@ -4,7 +4,8 @@
 		"editor.background": "#11001C",
 		"editor.foreground": "#ffffff",
 		"sideBar.background": "#190028",
-		// "contrastActiveBorder": "#FF99B6",
+		"contrastActiveBorder": "#FF99B6",
+		"editor.lineHighlightBorder": "#FF99B6",
 		"editorLineNumber.activeForeground": "#fff835"
 	},
 	"tokenColors": [
@@ -319,7 +320,7 @@
 				"support.constant.handlebars"
 			],
 			"settings": {
-				"foreground": "#fff835"
+				"foreground": "#ac98f2"
 			}
 		},
 		// ------------------------------------
@@ -370,7 +371,7 @@
 				"support.variable"
 			],
 			"settings": {
-				"foreground": "#5932e6"
+				"foreground": "#8a6fed"
 			}
 		},
 		// ------------------------------------
